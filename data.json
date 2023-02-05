@@ -11,7 +11,8 @@
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/themomtest.jpg",
-        "preview": "The Mom Test is a discussion framework which encourages..."
+        "preview": "The Mom Test is a discussion framework which encourages...",
+        "id": "TheMomTest"
     },
     {
         "book_name": "Project Hail Mary",
@@ -25,7 +26,8 @@
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/projecthailmary.jpg",
-        "preview": "Project Hail Mary was an exciting, could-not-put-down read..."
+        "preview": "Project Hail Mary was an exciting, could-not-put-down read...",
+        "id": "ProjectHailMary"
     },
     {
         "book_name": "Zero to One",
@@ -39,7 +41,8 @@
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/zerotoone.jpg",
-        "preview": "Thiel shares his philosophy on starting new companies in Zero to One..."
+        "preview": "Thiel shares his philosophy on starting new companies in Zero to One...",
+        "id": "ZerotoOne"
     },
     {
         "book_name": "What I Talk About When I Talk About Running",
@@ -53,7 +56,8 @@
         "rating": "3",
         "rating_text": "☆☆☆",
         "book_image": "images/running.jpg",
-        "preview": "Haruki is an avid runner, averaging 1 marathon a year and 6 miles..."
+        "preview": "Haruki is an avid runner, averaging 1 marathon a year and 6 miles...",
+        "id": "WhatITalkAboutW"
     },
     {
         "book_name": "Klara and the Sun",
@@ -67,7 +71,8 @@
         "rating": "2",
         "rating_text": "☆☆",
         "book_image": "images/klara.jpg",
-        "preview": "Klara and the Sun is a casual, gentle science fiction that proposes a world..."
+        "preview": "Klara and the Sun is a casual, gentle science fiction that proposes a world...",
+        "id": "KlaraandtheSun"
     },
     {
         "book_name": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race",
@@ -82,7 +87,8 @@
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/codebreaker.jpg",
-        "preview": "This book was perfect for someone like me, who has little prior biochemistry..."
+        "preview": "This book was perfect for someone like me, who has little prior biochemistry...",
+        "id": "TheCodeBreakerJ"
     },
     {
         "book_name": "China in 10 Words",
@@ -96,7 +102,8 @@
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/china.jpg",
-        "preview": "China in 10 Words provides a genuine, personal, and unfiltered view into Yu Han’s..."
+        "preview": "China in 10 Words provides a genuine, personal, and unfiltered view into Yu Han’s...",
+        "id": "Chinain10Words"
     },
     {
         "book_name": "Upgrade",
@@ -105,26 +112,28 @@
             "Sci-Fi",
             "Fiction"
         ],
-        "date_read": "2022-11-06T00:00:00.000Z",
+        "date_read": "2022-11-06T00: 00: 00.000Z",
         "date_read_str": "11/6/22",
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/upgrade.jpg",
-        "preview": "Here’s a hot take: reading > TV. *Upgrade* reminded me how addicting good sci-fi could be."
+        "preview": "Here’s a hot take: reading > TV. *Upgrade* reminded me how addicting good sci-fi could be.",
+        "id": "Upgrade"
     },
     {
         "book_name": "Numbers Don't Lie",
         "author": "Vaclav Smil",
         "categories": [
-          "Science",
-          "Non-fiction"
+            "Science",
+            "Non-fiction"
         ],
         "date_read_str": "8/25/22",
-        "date_read": "2022-08-25T00:00:00.000Z",
+        "date_read": "2022-08-25T00: 00: 00.000Z",
         "rating": "3",
         "rating_text": "☆☆☆",
         "book_image": "images/numbersdontlie.jpg",
-        "preview": "Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, refreshing, and…"
+        "preview": "Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, refreshing, and…",
+        "id": "NumbersDontLie"
     },
     {
         "book_name": "Gone Girl",
@@ -140,6 +149,7 @@
         "rating": "4",
         "rating_text": "☆☆☆☆",
         "book_image": "images/gonegirl.jpg",
-        "preview": "I devoured this book. Gone Girl is a bit trashy, a bit funny, a bit unbelievable…"
+        "preview": "I devoured this book. Gone Girl is a bit trashy, a bit funny, a bit unbelievable…",
+        "id": "GoneGirl"
     }
-  ]
+]

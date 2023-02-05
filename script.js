@@ -81,7 +81,7 @@ function generatePreviewCard(book) {
   '             <p> Rating: '+book.rating_text+'</p>' +
   '         </div>' +
   '         <div align="right">' +
-  '             <a href="reviews/upgrade.html"> <button>Read more</button> </a>' +
+  '             <a href="reviews/'+book.id+'.html"> <button>Read more</button> </a>' +
   '         </div>' +
   '     </div>' +
   '     <div class="status-bar">' +
