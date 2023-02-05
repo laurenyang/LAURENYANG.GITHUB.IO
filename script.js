@@ -14,12 +14,11 @@ function loadJSON(filePath) {
     }
   }
 
-var data = loadJSON('data.json');
-console.log(data);
-
 //TODO: change data to data
 
 /*
+var data = loadJSON('data.json');
+console.log(data);
 var bookData = [
   {
       "book_name": "Upgrade",
@@ -65,7 +64,6 @@ function generatePreviewCards() {
 
 // book is single book data  
 function generatePreviewCard(book) {
-
   let cardHTML = '<div class="window">' +
   '     <div class="title-bar">' +
   '       <div class="title-bar-text">'+book.book_name+'</div>' +
