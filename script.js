@@ -1,23 +1,23 @@
 
-function loadJSON(filePath) {
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', filePath, false);
-    xhr.send();
+// function loadJSON(filePath) {
+//     let xhr = new XMLHttpRequest();
+//     xhr.open('GET', filePath, false);
+//     xhr.send();
   
-    if (xhr.status === 200) {
-      let bookReviews = JSON.parse(xhr.responseText) //loadJSON(filePath);
-      return bookReviews;
-    } else {
-      console.error(`Error loading JSON file: ${xhr.status} ${xhr.statusText}`);
-      return null;
-    }
-  }
+//     if (xhr.status === 200) {
+//       let bookReviews = JSON.parse(xhr.responseText) //loadJSON(filePath);
+//       return bookReviews;
+//     } else {
+//       console.error(`Error loading JSON file: ${xhr.status} ${xhr.statusText}`);
+//       return null;
+//     }
+//   }
 
 //TODO: change data to data
 
-/*
-var data = loadJSON('data.json');
-console.log(data);
+
+// var data = loadJSON('data.json');
+// console.log(data);
 var bookData = [
   {
       "book_name": "Upgrade",
@@ -48,8 +48,9 @@ var bookData = [
       "preview": "Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, refreshing, and…"
   }
 ]
-*/
-function generatePreviewCards(bookData) {
+
+//function generatePreviewCards(bookData) {
+function generatePreviewCards() {
   var allCards;
   for (let i = 0; i < Object.keys(bookData).length; i++) {
     let book = bookData[i];
