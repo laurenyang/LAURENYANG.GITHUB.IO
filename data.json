@@ -1,24 +1,12 @@
 [
-    {
-        "book_name": "Upgrade",
-        "author": "Blake Crouch",
-        "categories": [
-            "Sci-Fi",
-            "Fiction"
-        ],
-        "date_read": "2022-11-06T00:00:00.000Z",
-        "rating": "4",
-        "book_image": "url goes here"
-    },
-    {
-        "book_name": "Numbers Don't Lie",
-        "author": "Vaclav Smil",
-        "categories": [
-            "Non-fiction",
-            "Science"
-        ],
-        "date_read": "2022-08-25T00:00:00.000Z",
-        "rating": "3",
-        "book_image": "url goes here"
-    }
+    "book_name": "Upgrade",
+    "author": "Blake Crouch",
+    "categories": [
+        "Sci-Fi",
+        "Fiction"
+    ],
+    "date_read": "2022-11-06T00:00:00.000Z",
+    "rating": "4",
+    "rating_text": "☆☆☆☆",
+    "book_image": "url goes here"
 ]

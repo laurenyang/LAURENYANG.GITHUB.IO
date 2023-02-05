@@ -36,9 +36,12 @@
         }
 
     </style>
+    <script>
+      var data = loadJSON('data.json')
+    </script>
 </head>
 
-<body onload="loadJSON('data.json')">
+<body>
     <div class = "menu" >
         <div class="title-bar inactive">
             <div class="title-bar-text">Lauren's Book Reviews</div>
@@ -64,37 +67,13 @@
     </div>
     <div class = "summary">
         <div class="container">  
-            
-            <div class="test">
-                <div class="window">
-                    <div class="title-bar">
-                      <div class="title-bar-text">Numbers Don't Lie</div>
-                    </div>
-                    <div class="window-body">
-                        <div style="display: flex; justify-content: center;">
-                            <img style="width:100px; " src="./images/numbersdontlie.jpg" alt="numbersdontlie cover">
-                        </div>
-                        <fieldset>
-                            <legend>Preview</legend>
-                            <p>Numbers Don’t Lie reads like a fizzy soda on a hot summer day... </p>                      
-                        </fieldset>
-                    </div>
-                    <div class="window-body" style=" display: flex; justify-content: space-between; "> 
-                        <div style="line-height: 0;">
-                            <p> Rating: ☆☆☆</p>
-                        </div>
-                        <div align="right">
-                            <button >Read more</button> <!-- TODO: make button live on own row -->
-                        </div>
-                    </div>
-                    <div class="status-bar">
-                      <p class="status-bar-field">Non-fiction</p>
-                      <p class="status-bar-field">Vaclav Smil</p>
-                      <p class="status-bar-field">Read 9/1/22</p>
-                    </div>
-                  </div>
-            </div> 
-            
+
+          <script>
+            let cardHTML = generatePreviewCard(data);
+            document.write(cardHTML);
+          </script>
+
+          
 
         </div>      
     </div>
