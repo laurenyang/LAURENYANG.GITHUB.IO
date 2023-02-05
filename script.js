@@ -6,7 +6,6 @@ function loadJSON(filePath) {
   
     if (xhr.status === 200) {
       let bookReviews = JSON.parse(xhr.responseText) //loadJSON(filePath);
-      console.log(bookReviews);
       return bookReviews;
     } else {
       console.error(`Error loading JSON file: ${xhr.status} ${xhr.statusText}`);
@@ -55,7 +54,6 @@ function generatePreviewCards(bookData) {
   for (let i = 0; i < Object.keys(bookData).length; i++) {
     let book = bookData[i];
     let cardHTML = generatePreviewCard(book);
-    console.log(cardHTML);
     allCards = allCards + cardHTML;
   }
   allCards = allCards.replace("undefined", "");
@@ -66,7 +64,7 @@ function generatePreviewCards(bookData) {
 function generatePreviewCard(book) {
   let cardHTML = '<div class="window">' +
   '     <div class="title-bar">' +
-  '       <div class="title-bar-text">'+book.book_name.substring(0, 50)+'</div>' +
+  '       <div class="title-bar-text">'+book.book_name.substring(0, 45)+'</div>' +
   '     </div>' +
   '     <div class="window-body">' +
   '         <div style="display: flex; justify-content: center;">' +
