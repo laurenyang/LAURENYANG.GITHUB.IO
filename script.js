@@ -13,7 +13,7 @@ function loadJSON(filePath) {
     }
   }
 
-var data = loadJSON(data.json);
+var data = loadJSON('data.json');
 console.log(data);
   
   
