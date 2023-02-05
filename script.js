@@ -66,7 +66,7 @@ function generatePreviewCards(bookData) {
 function generatePreviewCard(book) {
   let cardHTML = '<div class="window">' +
   '     <div class="title-bar">' +
-  '       <div class="title-bar-text">'+book.book_name+'</div>' +
+  '       <div class="title-bar-text">'+book.book_name.substring(0, 50)+'</div>' +
   '     </div>' +
   '     <div class="window-body">' +
   '         <div style="display: flex; justify-content: center;">' +
