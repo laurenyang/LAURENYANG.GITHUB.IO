@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/98.css"/>
     <link rel="icon" type="image/x-icon" href="./images/bookicon.png">
+    <script src="script.js"></script>
     <title>Lauren's Book Reviews </title>
     <style>
         body {
@@ -35,7 +36,7 @@
     </style>
 </head>
 
-<body>
+<body onload="loadJSON(data.json)">
     <div class = "menu" >
         <div class="title-bar inactive">
             <div class="title-bar-text">Lauren's Book Reviews</div>
@@ -62,51 +63,6 @@
     <div class = "summary">
         <div class="container">  
             
-            
-            
-            <div class="test">
-                <div class="window">
-                    <div class="title-bar">
-                      <div class="title-bar-text">Numbers Don't Lie</div>
-                    </div>
-                    <div class="window-body">
-                        <div style="display: flex; justify-content: center;">
-                            <img style="width:100px; " src="./images/numbersdontlie.jpg" alt="numbersdontlie cover">
-                        </div>
-                        <fieldset>
-                            <legend>Preview</legend>
-                            <p>Numbers Don’t Lie reads like a fizzy soda on a hot summer day... </p>                      
-                        </fieldset>
-                    </div>
-                    <div class="window-body" style=" display: flex; justify-content: space-between; "> 
-                        <div style="line-height: 0;">
-                            <p> Rating: ☆☆☆</p>
-                        </div>
-                        <div align="right">
-                            <button >Read more</button> <!-- TODO: make button live on own row -->
-                        </div>
-                    </div>
-                    <div class="status-bar">
-                      <p class="status-bar-field">Non-fiction</p>
-                      <p class="status-bar-field">Vaclav Smil</p>
-                      <p class="status-bar-field">Read 9/1/22</p>
-                    </div>
-                  </div>
-            </div> 
-            
-            
-
-
-
-
-
-
-
-
-
-
-
-
             <div class="test">
                 <div class="window">
                     <div class="title-bar">
@@ -138,126 +94,7 @@
             </div> 
             
 
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="test">
-                <div class="window">
-                    <div class="title-bar">
-                      <div class="title-bar-text">Numbers Don't Lie</div>
-                    </div>
-                    <div class="window-body">
-                        <div style="display: flex; justify-content: center;">
-                            <img style="width:100px; " src="./images/numbersdontlie.jpg" alt="numbersdontlie cover">
-                        </div>
-                        <fieldset>
-                            <legend>Preview</legend>
-                            <p>Numbers Don’t Lie reads like a fizzy soda on a hot summer day... </p>                      
-                        </fieldset>
-                    </div>
-                    <div class="window-body" style=" display: flex; justify-content: space-between; "> 
-                        <div style="line-height: 0;">
-                            <p> Rating: ☆☆☆</p>
-                        </div>
-                        <div align="right">
-                            <button >Read more</button> <!-- TODO: make button live on own row -->
-                        </div>
-                    </div>
-                    <div class="status-bar">
-                      <p class="status-bar-field">Non-fiction</p>
-                      <p class="status-bar-field">Vaclav Smil</p>
-                      <p class="status-bar-field">Read 9/1/22</p>
-                    </div>
-                  </div>
-            </div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="test">
-                <div class="window">
-                    <div class="title-bar">
-                      <div class="title-bar-text">Numbers Don't Lie</div>
-                    </div>
-                    <div class="window-body">
-                        <div style="display: flex; justify-content: center;">
-                            <img style="width:100px; " src="./images/numbersdontlie.jpg" alt="numbersdontlie cover">
-                        </div>
-                        <fieldset>
-                            <legend> <b> Preview</b></legend>
-                            <p>Numbers Don’t Lie reads like a fizzy soda on a hot summer day... </p>                      
-                        </fieldset>
-                    </div>
-                    <div class="window-body" style=" display: flex; justify-content: space-between; "> 
-                        <div style="line-height: 0;">
-                            <p> Rating: ☆☆☆</p>
-                        </div>
-                        <div align="right">
-                            <button >Read more</button> <!-- TODO: make button live on own row -->
-                        </div>
-                    </div>
-                    <div class="status-bar">
-                      <p class="status-bar-field">Non-fiction</p>
-                      <p class="status-bar-field">Vaclav Smil</p>
-                      <p class="status-bar-field">Read 9/1/22</p>
-                    </div>
-                  </div>
-            </div>  
-
-
-
-
-
-
-
-            <div class="test">5</div>  
-            <div class="test">6</div>  
-        </div>
-        
+        </div>      
     </div>
-    <!--
-    <fieldset>
-        <h5> Numbers Don't Lie </h4>
-        <div class="status-bar">
-            <p class="status-bar-field">Non-fiction</p>
-            <p class="status-bar-field">Vaclav Smil</p>
-            <p class="status-bar-field">Read 9/1/22</p>
-          </div>
-      </fieldset>
-    <div class="window" >
-        <div class="title-bar">
-          <div class="title-bar-text">Numbers Don't Lie</div>
-        </div>
-        <div class="window-body">
-      <h4> Overview </h4>
-      <p>Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, and refreshing. Smil gives a mile-high topography of a few different verticals: human population, countries, notable inventions, energy, transportation, food, and the environment. Don’t read it if you are looking for a deep dive into anything, as it’s written in a snappy, just-what-you-need-to-know style. I’m surprised Smil adopted this writing approach as he’s known for dense and detailed dissections. Personally, I didn’t enjoy this type of writing as it felt like it was designed to appeal to the 30-second attention span goldfish brain. I also wonder what nuances Smil had to abstract away in order to summarize such broad subjects into 1.5 page chapters. Because of this, it’s three stars for me. Read this book if you are looking for a smattering hodgepodge of loosely related facts. </p>
-        </div>
-        <div class="status-bar">
-          <p class="status-bar-field">Non-fiction</p>
-          <p class="status-bar-field">Vaclav Smil</p>
-          <p class="status-bar-field">CPU Usage: 14%</p>
-        </div>
-      </div>
-      -->
-
 </body>
 </html>

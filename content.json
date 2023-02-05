@@ -1,0 +1,39 @@
+{
+    "bookReviews": [
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "subject": "Literary fiction",
+        "rating": 4.8,
+        "dateRead": "January 1, 2022",
+        "bookCover": "to-kill-a-mockingbird.jpg",
+        "overview": "A classic coming-of-age story set in the Deep South during the 1930s.",
+        "quotes": [
+          "You never really understand a person until you consider things from his point of view.",
+          "Until I feared I would lose it, I never loved to read. One does not love breathing."
+        ],
+        "vocabulary": [
+          "Inscrutable: impossible to understand or interpret",
+          "Aesthetic: relating to the appreciation of beauty"
+        ]
+      },
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "subject": "Literary fiction",
+        "rating": 4.5,
+        "dateRead": "February 15, 2022",
+        "bookCover": "the-great-gatsby.jpg",
+        "overview": "A classic tale of decadence, excess, and the decline of the American Dream.",
+        "quotes": [
+          "So we beat on, boats against the current, borne back ceaselessly into the past.",
+          "I hope she'll be a fool—that's the best thing a girl can be in this world, a beautiful little fool."
+        ],
+        "vocabulary": [
+          "Parvenu: someone who has recently acquired wealth, status, or power",
+          "Lugubrious: excessively mournful"
+        ]
+      }
+    ]
+  }
+  
