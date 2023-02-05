@@ -11,5 +11,5 @@ function loadJSON(filePath) {
     }
   }
   
-  let bookReviews = loadJSON('data.json');
+  let bookReviews = loadJSON(filePath);
   console.log(bookReviews);
