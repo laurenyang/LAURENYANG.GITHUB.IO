@@ -1,12 +1,145 @@
-{
-    "book_name": "Upgrade",
-    "author": "Blake Crouch",
-    "categories": [
-        "Sci-Fi",
-        "Fiction"
-    ],
-    "date_read": "2022-11-06T00:00:00.000Z",
-    "rating": "4",
-    "rating_text": "☆☆☆☆",
-    "book_image": "url goes here"
-}
+[
+    {
+        "book_name": "The Mom Test",
+        "author": "Rob Fitzpatrick",
+        "categories": [
+            "Startups",
+            "Non-Fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "2/7/22",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/themomtest.jpg",
+        "preview": "The Mom Test is a discussion framework which encourages..."
+    },
+    {
+        "book_name": "Project Hail Mary",
+        "author": "Andy Weir",
+        "categories": [
+            "Sci-Fi",
+            "Fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "8/12/21",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/projecthailmary.jpg",
+        "preview": "Project Hail Mary was an exciting, could-not-put-down read..."
+    },
+    {
+        "book_name": "Zero to One",
+        "author": "Peter Thiel",
+        "categories": [
+            "Startups",
+            "Non-fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "3/12/22",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/zerotoone.jpg",
+        "preview": "Thiel shares his philosophy on starting new companies in Zero to One..."
+    },
+    {
+        "book_name": "What I Talk About When I Talk About Running",
+        "author": "Haruki Murakami",
+        "categories": [
+            "Memoir",
+            "Non-fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "4/9/22",
+        "rating": "3",
+        "rating_text": "☆☆☆",
+        "book_image": "images/running.jpg",
+        "preview": "Haruki is an avid runner, averaging 1 marathon a year and 6 miles..."
+    },
+    {
+        "book_name": "Klara and the Sun",
+        "author": "Kazuo Ishiguro",
+        "categories": [
+            "Sci-Fi",
+            "Fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "4/26/22",
+        "rating": "2",
+        "rating_text": "☆☆",
+        "book_image": "images/klara.jpg",
+        "preview": "Klara and the Sun is a casual, gentle science fiction that proposes a world..."
+    },
+    {
+        "book_name": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race",
+        "author": "Walter Isaacson",
+        "categories": [
+            "Science",
+            "Biography",
+            "Non-fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "5/7/22",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/codebreaker.jpg",
+        "preview": "This book was perfect for someone like me, who has little prior biochemistry..."
+    },
+    {
+        "book_name": "China in 10 Words",
+        "author": "Yu Hua",
+        "categories": [
+            "History",
+            "Non-fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "5/22/22",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/china.jpg",
+        "preview": "China in 10 Words provides a genuine, personal, and unfiltered view into Yu Han’s..."
+    },
+    {
+        "book_name": "Upgrade",
+        "author": "Blake Crouch",
+        "categories": [
+            "Sci-Fi",
+            "Fiction"
+        ],
+        "date_read": "2022-11-06T00:00:00.000Z",
+        "date_read_str": "11/6/22",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/upgrade.jpg",
+        "preview": "Here’s a hot take: reading > TV. *Upgrade* reminded me how addicting good sci-fi could be."
+    },
+    {
+        "book_name": "Numbers Don't Lie",
+        "author": "Vaclav Smil",
+        "categories": [
+          "Science",
+          "Non-fiction"
+        ],
+        "date_read_str": "8/25/22",
+        "date_read": "2022-08-25T00:00:00.000Z",
+        "rating": "3",
+        "rating_text": "☆☆☆",
+        "book_image": "images/numbersdontlie.jpg",
+        "preview": "Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, refreshing, and…"
+    },
+    {
+        "book_name": "Gone Girl",
+        "author": "Gillian Flynn",
+        "categories": [
+            "Thriller",
+            "Crime",
+            "Mystery",
+            "Fiction"
+        ],
+        "date_read": "",
+        "date_read_str": "1/19/23",
+        "rating": "4",
+        "rating_text": "☆☆☆☆",
+        "book_image": "images/gonegirl.jpg",
+        "preview": "I devoured this book. Gone Girl is a bit trashy, a bit funny, a bit unbelievable…"
+    },
+  ]
