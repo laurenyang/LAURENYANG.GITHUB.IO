@@ -12,6 +12,9 @@ function loadJSON(filePath) {
       return null;
     }
   }
+
+var data = loadJSON(data.json);
+console.log(data);
   
   
 
