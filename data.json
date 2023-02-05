@@ -1,4 +1,4 @@
-[
+{
     "book_name": "Upgrade",
     "author": "Blake Crouch",
     "categories": [
@@ -9,4 +9,4 @@
     "rating": "4",
     "rating_text": "☆☆☆☆",
     "book_image": "url goes here"
-]
+}
