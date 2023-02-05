@@ -50,7 +50,7 @@ var bookData = [
   }
 ]
 */
-function generatePreviewCards() {
+function generatePreviewCards(bookData) {
   var allCards;
   for (let i = 0; i < Object.keys(bookData).length; i++) {
     let book = bookData[i];
