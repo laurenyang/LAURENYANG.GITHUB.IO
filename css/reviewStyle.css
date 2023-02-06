@@ -16,7 +16,7 @@ color: white;
 }
 
 body {
-    background-color: #c3c3c3;
+    background-color: #dbdbdb;
     }
 .window-body{
     font-family: "Arial", sans-serif;
@@ -59,4 +59,13 @@ ul li {
 }
 .quote-subsection{
     font-weight: bolder;
+}
+fieldset{
+    background-color: rgb(206, 206, 206) !important;
+}
+legend{
+    font-weight: bolder;
+    background-color: rgb(206, 206, 206) !important;
+
+
 }
