@@ -93,9 +93,10 @@ legend {
 }
 
 .aside {
-    text-align: center !important;
-    width: 50%;
+    text-align: left !important;
+    width: 85%;
     margin: 0 auto;
-    border-left: 1.5px solid rgb(255, 255, 255);
+    border-left: 1.5px solid #ff0081;
+    padding-left: 8px;
 }
 
