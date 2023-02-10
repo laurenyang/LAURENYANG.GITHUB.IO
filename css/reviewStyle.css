@@ -39,6 +39,15 @@ body {
     font-weight: 900;
 }
 
+.page-title-long {
+    font-size: 60px;
+    margin: 8;
+    padding-top: 10px;
+    font-weight: 900;
+    line-height: .88;
+}
+
+
 .subsection {
     display: flex !important;
 }
@@ -54,9 +63,11 @@ body {
 }
 
 ul li {
-    margin-bottom: 12px;
+    margin-bottom: 9.5px;
 }
-
+ol li {
+    margin-bottom: 9.5px;
+}
 .menu {
     float: left;
     width: 200px;
@@ -100,3 +111,26 @@ legend {
     padding-left: 8px;
 }
 
+.table-body {
+    font-family: sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    line-height: 1.4 !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px dotted rgb(174, 174, 174);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    vertical-align: top;
+  }
