@@ -25,11 +25,7 @@ body {
     font-size: 25px;
     color: #80568e;
   }
-  .image-div {
-    width: 199px;
-  }
   .image-div img {
-    max-width: 100%;
     height: auto;
   }
   .summary {
