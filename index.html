@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://unpkg.com/98.css"/>
     <link rel="stylesheet" type="text/css" href="./css/homepageStyle.css"/>
     <link rel="icon" type="image/x-icon" href="./images/bookicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
     <title>Lauren's Book Reviews </title>
     
@@ -17,7 +20,8 @@
 </head>
 
 <body>
-    <div class = "menuv2" >
+    <div class = "menu" >
+    <!-- <div class = "menuv2" > -->
       <p class="sidebar-title">Lauren's Book Reviews</p>
       <img src="images/chosenone.png" style="width: 199px">
 
@@ -47,8 +51,8 @@
     <div class = "summary">
         <div class="container">  
           <script>
-            let cardHTML = generatePreviewCards(data);
-            //let cardHTML = generatePreviewCards();
+            //let cardHTML = generatePreviewCards(data);
+            let cardHTML = generatePreviewCards();
             document.write(cardHTML);
           </script>
         </div>      
