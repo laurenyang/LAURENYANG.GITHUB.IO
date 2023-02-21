@@ -16,41 +16,41 @@ function loadJSON(filePath) {
 //TODO: change data to data
 
 
-// var data = loadJSON('data.json');
-// console.log(data);
-var bookData = [
-  {
-      "book_name": "Upgrade",
-      "author": "Blake Crouch",
-      "categories": [
-          "Sci-Fi",
-          "Fiction"
-      ],
-      "date_read": "2022-11-06T00:00:00.000Z",
-      "date_read_str": "11/6/22",
-      "rating": "4",
-      "rating_text": "☆☆☆☆",
-      "book_image": "images/upgrade.jpg",
-      "preview": "Here’s a hot take: reading > TV. *Upgrade* reminded me how addicting good sci-fi could be."
-  },
-  {
-      "book_name": "Numbers Don't Lie",
-      "author": "Vaclav Smil",
-      "categories": [
-        "Science",
-        "Non-fiction"
-      ],
-      "date_read_str": "8/25/22",
-      "date_read": "2022-08-25T00:00:00.000Z",
-      "rating": "3",
-      "rating_text": "☆☆☆",
-      "book_image": "images/numbersdontlie.jpg",
-      "preview": "Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, refreshing, and…"
-  }
-]
+ var data = loadJSON('data.json');
+ console.log(data);
+// var bookData = [
+//   {
+//       "book_name": "Upgrade",
+//       "author": "Blake Crouch",
+//       "categories": [
+//           "Sci-Fi",
+//           "Fiction"
+//       ],
+//       "date_read": "2022-11-06T00:00:00.000Z",
+//       "date_read_str": "11/6/22",
+//       "rating": "4",
+//       "rating_text": "☆☆☆☆",
+//       "book_image": "images/upgrade.jpg",
+//       "preview": "Here’s a hot take: reading > TV. *Upgrade* reminded me how addicting good sci-fi could be."
+//   },
+//   {
+//       "book_name": "Numbers Don't Lie",
+//       "author": "Vaclav Smil",
+//       "categories": [
+//         "Science",
+//         "Non-fiction"
+//       ],
+//       "date_read_str": "8/25/22",
+//       "date_read": "2022-08-25T00:00:00.000Z",
+//       "rating": "3",
+//       "rating_text": "☆☆☆",
+//       "book_image": "images/numbersdontlie.jpg",
+//       "preview": "Numbers Don’t Lie reads like a fizzy soda on a hot summer day - it’s light, bubbly, refreshing, and…"
+//   }
+// ]
 
-//function generatePreviewCards(bookData) {
-function generatePreviewCards() {
+function generatePreviewCards(bookData) {
+//function generatePreviewCards() {
   var allCards;
   for (let i = 0; i < Object.keys(bookData).length; i++) {
     let book = bookData[i];
