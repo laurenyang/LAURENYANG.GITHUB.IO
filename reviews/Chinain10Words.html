@@ -5,13 +5,20 @@
     <link rel="stylesheet" type="text/css" href="../css/reviewStyle.css" />
     <link rel="stylesheet" href="https://unpkg.com/98.css" />
     <link rel="icon" type="image/x-icon" href="../images/bookicon.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>China in 10 Words</title>
 
 </head>
 
 <body>
     <div class="menu">
-        <!--#include virtual="../header.html" -->
+        <div id="side-placeholder">
+        </div>
+        <script>
+          $(function(){
+            $("#side-placeholder").load("sidebar.html");
+          });
+          </script>
     </div>
     <div class="review">
         <div class="window">
