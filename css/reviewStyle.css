@@ -74,6 +74,16 @@ ol li {
     float: left;
     width: 200px;
     height: 100%;
+    background-color: #50a5a5;
+}
+
+.sidebar-title {
+    padding-left: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 22px;
+    color: #80568e;
 }
 
 .summary {
@@ -125,14 +135,14 @@ legend {
 table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  th, td {
-    border: 1px dotted rgb(174, 174, 174);
-    padding: 8px;
-    text-align: left;
-  }
-  
-  td {
-    vertical-align: top;
-  }
+}
+
+th, td {
+border: 1px dotted rgb(174, 174, 174);
+padding: 8px;
+text-align: left;
+}
+
+td {
+vertical-align: top;
+}
