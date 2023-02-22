@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600;700&display=swap" rel="stylesheet">
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Lauren's Book Reviews </title>
     
     <script>
@@ -21,30 +22,14 @@
 
 <body>
     <div class = "menu" >
-      <p class="sidebar-title">Lauren's Book <br> Reviews</p>
-      <img src="images/chosenone.png" style="width: 199px">
+      <div id="side-placeholder">
 
-        
-        <!-- <div class="title-bar inactive">
-            <div class="title-bar-text">Lauren's Book Reviews</div>
-            <div class="title-bar-controls">
-            </div>
-          </div>
-        <ul class="tree-view" style="height: 100%;">
-            <li>
-                <details open>
-                    <summary> All Books </summary>
-                    <ul>
-                        <details>
-                            <summary> Fiction </summary>
-                        </details>
-                        <details>
-                            <summary> Non-fiction </summary>
-                        </details>
-                    </ul>
-                </details>
-            </li>
-        </ul> -->
+      </div>
+      <script>
+        $(function(){
+          $("#side-placeholder").load("sidebar.html");
+        });
+        </script>
     </div>
 
     <div class = "summary">
