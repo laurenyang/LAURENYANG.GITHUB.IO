@@ -68,7 +68,7 @@ function generatePreviewCard(book) {
   '       <div class="title-bar-text">'+book.book_name.substring(0, 45)+'</div>' +
   '     </div>' +
   '     <div class="window-body">' +
-  '         <div style="display: flex; justify-content: center;">' +
+  '         <div style="display: flex; justify-content: center; font-size: 12px">' +
   '             <img style="width:100px; " src=' + book.book_image + ' alt="numbersdontlie cover">' +
   '         </div>' +
   '         <fieldset>' +
