@@ -83,12 +83,13 @@ function generatePreviewCard(book) {
   '         <div align="right">' +
   '             <a href="reviews/'+book.id+'.html"> <button>Read more</button> </a>' +
   '         </div>' +
-  '     </div>' +
-  '     <div class="status-bar">' +
-  '       <p class="status-bar-field">'+book.categories[0]+'</p>' +
-  '       <p class="status-bar-field">'+book.author+'</p>' +
-  '       <p class="status-bar-field">Read '+book.date_read_str+'</p>' +
-  '     </div>' +
+ 
+    '     <div class="status-bar">' +
+    '       <p class="status-bar-field">'+book.categories[0]+'</p>' +
+    '       <p class="status-bar-field">'+book.author+'</p>' +
+    '       <p class="status-bar-field">Read '+book.date_read_str+'</p>' +
+    '     </div>' +
+    '     </div>' +
   ' </div>'
   return cardHTML;
 }
