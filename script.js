@@ -63,12 +63,12 @@ function generatePreviewCards(bookData) {
 
 // book is single book data  
 function generatePreviewCard(book) {
-  let cardHTML = '<div class="window">' +
+  let cardHTML = '<div class="window" style="font-size: 12px;">' +
   '     <div class="title-bar">' +
   '       <div class="title-bar-text">'+book.book_name.substring(0, 45)+'</div>' +
   '     </div>' +
   '     <div class="window-body">' +
-  '         <div style="display: flex; justify-content: center; font-size: 12px">' +
+  '         <div style="display: flex; justify-content: center;">' +
   '             <img style="width:100px; " src=' + book.book_image + ' alt="numbersdontlie cover">' +
   '         </div>' +
   '         <fieldset>' +
