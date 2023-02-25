@@ -5,32 +5,20 @@
     <link rel="stylesheet" type="text/css" href="../css/reviewStyle.css" />
     <link rel="stylesheet" href="https://unpkg.com/98.css" />
     <link rel="icon" type="image/x-icon" href="../images/bookicon.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race</title>
 
 </head>
 
 <body>
     <div class="menu">
-        <div class="title-bar inactive">
-            <div class="title-bar-text">Lauren's Book Reviews</div>
-            <div class="title-bar-controls">
-            </div>
+        <div id="side-placeholder">
         </div>
-        <ul class="tree-view" style="height: 100%;">
-            <li>
-                <details open>
-                    <summary> All Books </summary>
-                    <ul>
-                        <details>
-                            <summary> Fiction </summary>
-                        </details>
-                        <details>
-                            <summary> Non-fiction </summary>
-                        </details>
-                    </ul>
-                </details>
-            </li>
-        </ul>
+        <script>
+          $(function(){
+            $("#side-placeholder").load("../sidebar.html");
+          });
+          </script>
     </div>
     <div class="review">
         <div class="window">
