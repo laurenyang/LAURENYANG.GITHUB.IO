@@ -63,32 +63,31 @@ function generatePreviewCards(bookData) {
 
 // book is single book data  
 function generatePreviewCard(book) {
-  let cardHTML = '<div class="window" style="font-size: 12px;">' +
-  '     <div class="title-bar">' +
+  let cardHTML = '<div class="window"">' +
+  '     <div class="title-bar" style="font-size: 12px;">' +
   '       <div class="title-bar-text">'+book.book_name.substring(0, 45)+'</div>' +
   '     </div>' +
   '     <div class="window-body">' +
   '         <div style="display: flex; justify-content: center;">' +
   '             <img style="width:100px; " src=' + book.book_image + ' alt="numbersdontlie cover">' +
   '         </div>' +
-  '         <fieldset>' +
+  '         <fieldset style="font-size: 12px;">' +
   '             <legend>Preview</legend>' +
   '             <p>'+book.preview+'</p>' +
   '         </fieldset>' +
   '     </div>' +
-  '     <div class="window-body" style=" display: flex; justify-content: space-between; "> ' +
+  '     <div class="window-body" style="display: flex; justify-content: space-between; font-size: 12px;"> ' +
   '         <div style="line-height: 0;">' +
   '             <p> Rating: '+book.rating_text+'</p>' +
   '         </div>' +
   '         <div align="right">' +
   '             <a href="reviews/'+book.id+'.html"> <button>Read more</button> </a>' +
   '         </div>' +
- 
+  '     </div>' +
     '     <div class="status-bar">' +
     '       <p class="status-bar-field">'+book.categories[0]+'</p>' +
     '       <p class="status-bar-field">'+book.author+'</p>' +
     '       <p class="status-bar-field">Read '+book.date_read_str+'</p>' +
-    '     </div>' +
     '     </div>' +
   ' </div>'
   return cardHTML;
