@@ -74,6 +74,9 @@ ol li {
     float: left;
     width: 200px;
     height: 100%;
+}
+
+.menu-blue {
     background-color: #50a5a5;
 }
 
